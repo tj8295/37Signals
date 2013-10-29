@@ -1,0 +1,164 @@
+@import url(http://meyerweb.com/eric/tools/css/reset/reset.css);
+
+/*top navigation*/
+/*
+* {
+  border: 1px solid black;
+}
+
+*/
+header {
+  padding: 0 50px;
+}
+
+#greeting {
+  color: #999999; /*light gray*/
+  display: inline-block;
+  /*float: left;*/
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.top-navigation {
+  position: relative;
+  float: right;
+}
+
+.top-navigation a {
+    text-decoration: none;
+        color: #336699;
+
+}
+
+.top-navigation a:hover{
+  color: #18AFE0;
+}
+
+.default-selection a {
+  color: #18AFE0;
+  text-decoration: none;
+
+}
+
+.default-selection a:hover {
+    color: #336699;
+
+}
+
+li {
+  font-family: sans-serif;
+  color: #336699;
+  display: inline-block;
+  font-size: 12px;
+  padding-left: 15px;
+  }
+
+
+  #content{
+    width: 100%;
+    clear: both;
+    min-width: 800px;
+    position: relative;
+    text-align: center;
+  }
+
+  #top-logo {
+    margin: 0 auto;
+    position: relative;
+    display: block;
+    padding-bottom: 50px;
+
+  }
+
+  h1, h2, h4 {
+    font-family: "CrimsonSemibold","Times New Roman";
+
+  }
+
+  h1 {
+    clear: both;
+    width: 700px;
+    font-size: 40px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+
+  h4 {
+    text-align: center;
+    font-size: 18px;
+}
+
+.products {
+  display: block;
+  width: 700px;
+  height: 251px;
+  margin: 0 auto;
+  font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+       font-size: 14px;
+
+  }
+
+      h3 {
+        color: #336699;
+        text-decoration: underline;
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        font-family: 'Lucida Grande','Lucida Sans Unicode',Verdana,sans-serif;
+      }
+
+      .product-function {
+      color: #CC0000;
+      font-weight: bold;
+    }
+      .trademark {
+        position: relative;
+        color: #CCCCCC;
+        left: -5px;
+      }
+
+.product-box {
+  background: linear-gradient(to bottom, #FFFFFF, #F0F0F0);
+  border-radius: 5px;
+  border: 1px solid #E8E8E8;
+  height: 230px;
+  width: 180px;
+  padding: 20px 5px 0 5px;
+  display: block;
+  float: left;
+  margin-left: 35px;
+}
+
+hr {
+    background: url("http://www.37signals.com/images/img-hr.png") no-repeat scroll 50% 50% #FFFFFF;
+    border: 0 none;
+    clear: both;
+    color: rgba(0, 0, 0, 0);
+    height: 12px;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
+.customers {
+  width: 900px;
+  margin: 0 auto;
+  text-align: top;
+}
+
+.who-customers-are {
+  width: 540px;
+  font-size:20px;
+  color: gray;
+  position: relative;
+  display: inline-block;
+  text-align: left;
+}
+
+.world {
+  display: inline-block;
+  margin-top: 10px;
+}
+
